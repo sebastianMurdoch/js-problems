@@ -1,0 +1,12 @@
+.elemento {
+    background: var(--color-fondo);
+    display: inline;
+}
+
+:root{
+    --color-fondo: red;
+}
+
+.dark{
+    --color-fondo: green;
+}
