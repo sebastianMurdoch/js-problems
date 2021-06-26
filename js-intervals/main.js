@@ -1,4 +1,5 @@
 let segundos = 0
+let seg = document.getElementById('seg')
 
 function f() {
     setInterval(function () {
@@ -6,7 +7,7 @@ function f() {
         mostrar(segundos)
     }, 1000)
 }
-let seg = document.getElementById('seg')
+
 function mostrar(segundos) {
     seg.innerText = segundos
 }
